@@ -18,7 +18,7 @@
 }
 
 .main-box {
-    padding: 10rem 4rem 5rem 4rem;
+    padding: 5rem 4rem 5rem 4rem;
     border-radius: 40px;
     color: white;
     background-color: rgb(22, 25, 44);
@@ -30,6 +30,7 @@
 }
 
 .main-box img {
+    display: none;
     width: 20%;
     position: absolute;
     top: -15%;
@@ -39,7 +40,6 @@
 }
 
 .main-box h1 {
-    margin-top: -3.5rem;
     text-align: center;
     font-size: 3.5rem;
     background-color: rgb(22, 25, 44);
@@ -60,7 +60,7 @@
     background-color: rgb(22, 25, 44);
 }
 
-.icon-with-tooltip {
+.icon-with-info {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ i:hover {
     color: #5564b8;
 }
 
-.tooltip {
+.info {
     position: absolute;
     top: 120%;
     left: 50%;
@@ -96,7 +96,7 @@ i:hover {
     z-index: 10;
 }
 
-.icon-with-tooltip:hover .tooltip {
+.icon-with-info:hover .info {
     visibility: visible;
     opacity: 1;
 }
